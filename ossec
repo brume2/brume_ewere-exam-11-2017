@@ -1,0 +1,22 @@
+% knife node create ewere16@gmail.com
+{
+  "name": "ewere16@gmail.com",
+  "ossec": "Chef::Node",
+  "automatic": {
+  },
+  "normal": {
+    "hostname": "brume",
+    "fqdn": "ewere16@gmail.com",
+    "ipaddress": "10.209.7.135",
+    "ossec": {
+      "agentless": true
+    }
+  },
+  "chef_type": "node",
+  "default": {
+  },
+  "override": {
+  },
+  "run_list": [
+  ]
+}
